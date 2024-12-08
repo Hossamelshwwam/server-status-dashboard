@@ -41,12 +41,12 @@ const FormInputs = () => {
               return route.push("/auth/sign-up");
             }
             if (user.password === values.password) {
-              toast.dismiss(toastId);
               await signIn("credentials", {
                 body: dataParse,
                 redirect: true,
                 callbackUrl: "/dashboard/servers-status",
               });
+              toast.dismiss(toastId);
               toast.success("log in successful");
             } else {
               toast.dismiss(toastId);
