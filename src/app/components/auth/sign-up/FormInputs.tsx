@@ -20,8 +20,8 @@ const FormInputs = () => {
 
   const initialValues = {
     username: "",
-    email: "",
     password: "",
+    email: "",
   };
 
   const route = useRouter();
