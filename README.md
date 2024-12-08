@@ -76,7 +76,7 @@ This project is a **Servers Status Dashboard** that allows users to view the sta
 ## Deployment
 
 The project is live and hosted on **Vercel**. You can access it here:  
-**[Live Demo](vercel-link)**
+**[Live Demo](server-statusdashboard.vercel.app)**
 
 Source code is available on GitHub:  
 **[GitHub Repository](https://github.com/Hossamelshwwam/server-status-dashboard)**
