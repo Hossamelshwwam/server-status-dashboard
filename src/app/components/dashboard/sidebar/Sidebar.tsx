@@ -58,7 +58,7 @@ const Sidebar = ({ open }: Props) => {
               {navigation.map(({ icon, title, link }, index) => (
                 <Link href={link} key={index}>
                   <ListItemButton
-                    className={`${styles.listItem} focus:text-n-sub-main px-4 py-2 text-n-white min-h-[40px] capitalize duration-300 group`}
+                    className={`${styles.listItem} focus:text-n-sub-main px-4 py-2 !text-n-white min-h-[40px] capitalize duration-300 group`}
                   >
                     <ListItemIcon className="flex items-center">
                       {icon}
